@@ -33,5 +33,5 @@ git clone https://github.com/gconelhero/CS50W-Project_3 &&
 cd CS50W-Project_3 &&
 python3 manage.py makemigrations &&
 python3 manage.py migrate &&
-python3 runserver
+python3 manage.py runserver
 ```
