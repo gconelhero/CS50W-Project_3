@@ -28,10 +28,10 @@ Pre-fill the body of the email with a line like "On Jan 1 2020, 12:00 AM foo@exa
 
 Setup with Python 3.8.10:
 ```
-python3 -m pip install Django==4.2.5
-git clone https://github.com/gconelhero/CS50W-Project_3
-cd CS50W-Project_3
-python3 manage.py makemigrations
-python3 manage.py migrate
+python3 -m pip install Django==4.2.5 &&
+git clone https://github.com/gconelhero/CS50W-Project_3 &&
+cd CS50W-Project_3 &&
+python3 manage.py makemigrations &&
+python3 manage.py migrate &&
 python3 runserver
 ```
